@@ -1,25 +1,20 @@
 <template>
-  <div class="site-main">
-    <div class="site-main-inner">
-      <div class="home-section">
-        <div class="home-section-inner">
-          <div class="home-heading">
-            Hi, I'm Seungeon Choi
-          </div>
-
-          <h2 class="home-subheading">
-            web service developer specialized&nbsp;in<br>
-            <strong>front-end and back-end web development</strong>.
-          </h2>
-
-          <div class="home-buttons">
-            <a href="/portfolio/" class="button button-outline button-white">Portfolio</a>
-            <br>
-            <a href="/skills-and-offer/" class="button button-outline button-white">Skills &amp; offer</a>
-          </div>
-        </div>
+  <div class="home-section">
+    <div class="home-section-inner">
+      <div class="home-heading">
+        Hi, I'm Seungeon Choi
       </div>
 
+      <h2 class="home-subheading">
+        web service developer specialized&nbsp;in<br>
+        <strong>front-end and back-end web development</strong>.
+      </h2>
+
+      <div class="home-buttons">
+        <a href="/portfolio" class="button button-outline button-white">Portfolio</a>
+        <br>
+        <a href="/skills-and-offer" class="button button-outline button-white">Skills &amp; offer</a>
+      </div>
     </div>
   </div>
 </template>

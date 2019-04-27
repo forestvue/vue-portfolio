@@ -16,8 +16,8 @@ export default new Router({
       component: MainComponent
     },
     {
-      path: '/photofolio',
-      name: 'Port',
+      path: '/portfolio',
+      name: 'Portfolio',
       component: Portfolio
     },
     {

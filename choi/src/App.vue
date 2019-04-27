@@ -2,7 +2,12 @@
   <div>
     <Side/>
     <Menu/>
-    <router-view/>
+    <div class="site-main">
+      <div class="site-main-inner">
+        <router-view/>
+      </div>
+    </div>
+
   </div>
 </template>
 
