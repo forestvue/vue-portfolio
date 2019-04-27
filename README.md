@@ -1,4 +1,4 @@
-# vue-photofolio
+# vue-portfolio
 ![](./logo_transparent_background.png)
 
 > A Vue.js project
