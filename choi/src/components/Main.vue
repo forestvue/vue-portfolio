@@ -4,21 +4,13 @@
       <div class="home-section">
         <div class="home-section-inner">
           <div class="home-heading">
-            Hi, I'm Jack,
+            Hi, I'm Seungeon Choi
           </div>
 
           <h2 class="home-subheading">
-            a freelance web developer specialized&nbsp;in<br>
+            web service developer specialized&nbsp;in<br>
             <strong>front-end and back-end web development</strong>.
           </h2>
-
-          <!-- <div class="home-location">
-            Currently located in
-            <span class="location-name">
-              <i class="fa fa-map-marker"></i>
-              Chiang Mai, Thailand
-            </span>.
-          </div> -->
 
           <div class="home-buttons">
             <a href="/portfolio/" class="button button-outline button-white">Portfolio</a>

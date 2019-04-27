@@ -1,4 +1,5 @@
 
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -361,6 +362,7 @@ td, th {
 }
 
 
+
 html {
   box-sizing: border-box
 }
@@ -636,7 +638,7 @@ body {
   font-size: 14px;
   color: #fff;
   text-align: left;
-  background-color: rgba(145, 13, 13, .8)
+  background-color: rgba(41, 85, 145, 0.4)
 }
 
 @media screen and (max-width: 1023px) {

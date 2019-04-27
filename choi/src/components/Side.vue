@@ -3,7 +3,7 @@
     <div class="site-sidebar-inner">
       <a href="/" class="person">
         <div class="person-avatar">
-          <img src="../assets/images/squrtle.jpg" alt="" class="avatar">
+          <img src="https://avatars1.githubusercontent.com/u/18233236?s=460&amp;v=4" alt="" class="avatar">
         </div>
         <div class="person-content">
           <h1 class="person-title">Choi Seungeon</h1>
@@ -31,11 +31,7 @@
             <li class="current"><a href="./contact">Contact me</a></li>
           </ul>
           <ul>
-            <!-- <li class=""><a href="/about-me/">About me</a></li> -->
-            <!-- <li class=""><a href="/blog">Tech blog</a></li> -->
             <li class=""><a href="/cv/">My CV</a></li>
-            <li class=""><a href="/talks/">My talks</a></li>
-            <li><a href="https://medium.com/@jtomaszewski" target="_blank">Personal blog</a></li>
           </ul>
         </div>
       </nav>
@@ -43,20 +39,11 @@
         <div class="block-title">Get in touch</div>
         <div class="block-content">
           <div class="social-icons">
-            <a href="mailto:jacek@jtom.me" class="button button-icon" title="mail: chou610@gmail.com">
+            <a href="mailto:chou610@gmail.com" class="button button-icon" title="mail: chou610@gmail.com">
               <i class="fa fa-envelope"></i>
             </a>
-            <a href="https://www.linkedin.com/in/jtompl" class="button button-icon" title="linkedin: jtompl">
-              <i class="fa fa-linkedin-square"></i>
-            </a>
-            <a href="https://github.com/jtomaszewski" class="button button-icon" title="github: jtomaszewski">
+            <a href="https://github.com/loyalchoi610" class="button button-icon" title="github: loyalchoi610">
               <i class="fa fa-github-square"></i>
-            </a>
-            <a href="https://facebook.com/jtomaszewski" class="button button-icon" title="facebook: jtomaszewski">
-              <i class="fa fa-facebook-square"></i>
-            </a>
-            <a href="https://twitter.com/jtompl" class="button button-icon" title="twitter: @jtompl">
-              <i class="fa fa-twitter-square"></i>
             </a>
           </div>
         </div>
