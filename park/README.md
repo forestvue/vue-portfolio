@@ -1,6 +1,6 @@
 # park
 
-> park's portpolio
+> park's portfolio
 
 ## Build Setup
 
