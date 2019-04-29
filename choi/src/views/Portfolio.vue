@@ -2,320 +2,283 @@
   <div class="main-section portfolio-section">
     <h1 class="main-title">Portfolio</h1>
 
-    <p>See my works below. Unless stated otherwise in their description, <strong>all their back-end and front-end parts
-      were completely done by me.</strong></p>
-
+    <p>See my works below. Unless stated otherwise in their description, <strong>not only my efforts were put but also my team had done lots of things</strong></p>
     <div class="timeline portfolio-timeline">
       <ul>
         <li class="timeline_element timeline_element--now project">
           <div class="timeline_element-date">
             <time class="timeline_element-date-text">Now</time>
           </div>
-
           <div class="timeline_element-contents">
             <div class="project-text">
               <div class="project-description">
-                <strong>Busy until March 2019. From then on, I'll be open to co-operation on new/existing
-                  projects.</strong><br>
-                Looking for a CTO or a full-stack dev willing to join your team?<br>
+                <strong>Busy studying for job interview until April 2019,  then focusing on
+                  web service project & major study.</strong><br>
+                Looking for full-stack dev position with standard development environment<br>
                 <a href="contact">Contact me</a>. I will answer you in ~24 hours.
               </div>
             </div>
           </div>
         </li>
-
         <li class="timeline_element timeline_element--now project">
           <div class="timeline_element-date">
-            <time class="timeline_element-date-text">2017 - 2018</time>
+            <time class="timeline_element-date-text">2019 Feb - 2019 Apr</time>
           </div>
 
           <div class="timeline_element-contents">
             <div class="project-text">
               <div class="project-description">
-                During this time I took a break from freelancing and instead decided to work in a bigger company, in
-                order to get experience with working in a bigger in-house team, leading other people and doing projects
-                in Elixir language and React/Angular on the front-end. See <a href="/cv/">my CV</a> for more details.
+                During this time I took a break from university and instead decided to join algorithm and interview-related study.
+                in order to imporve my programming skills, joined group study in Gangnam, presenting to others what i solved problem that was given last week.
+                The study is taken two days a week and <strong>eventually passed samsung electronics s/w certificate test degree A+</strong>> in April.
+              </div>
+            </div>
+            <div class="project-image">
+              <img src="../static/images/samsung-cert.png"
+                   alt="Hy3d">
+            </div>
+          </div>
+        </li>
+        <li class="timeline_element timeline_element--now project">
+          <div class="timeline_element-date">
+            <time class="timeline_element-date-text">2019 Jan - 2019 Feb</time>
+          </div>
+
+          <div class="timeline_element-contents">
+            <div class="project-text">
+              <div class="project-description">
+                I took professional algorithm offline courses from samsung SDS. In this class, mainly focused on minimizing time complexity
+                for solving problems with insane technics such as two pointers, dynamic programming, floyd-warshall, dijikstra, segment tree.
               </div>
             </div>
           </div>
         </li>
         <li class="timeline_element project">
           <div class="timeline_element-date">
-            <time class="timeline_element-date-text">2016 - 2017</time>
+            <time class="timeline_element-date-text">2018 Jun- 2018 Aug</time>
           </div>
-
           <div class="timeline_element-contents">
             <div class="project-text">
               <a href="/portfolio/tripsomnia/" class="project-link">
-                <div class="project-title">Tripsomnia</div>
-                <div class="project-subtitle">Experience a lifetime adventure. Save up on your holiday</div>
+                <div class="project-title">Hy3d-smart-distribution</div>
+                <div class="project-subtitle">Let your villegers experience electric pole on the ground </div>
               </a>
-              <div class="project-description"><p><strong>Tripsomnia is a web platform that allows to book and sell
-                local tours and tourist attractions all over the world. It serves both as:</strong></p>
-
+              <div class="project-description"><p><strong>Hy3d-smart-distribution/api-server is a web management platform
+              that handles electric pole AR model for customers-in-need. It serves as : </strong></p>
                 <ul>
-                  <li>a SaaS platform for tour operators and activity providers, to manage their offers, customers,
-                    orders, and agents cooperation,
+                  <li>
+                    dashboard for managing companies that purchased the model
                   </li>
-                  <li>a marketplace for end-customers to book the local tours and activities while or before the
-                    travelling.
+                  <li>
+                    api-service reponsible for communication between database and client AR application.
                   </li>
                 </ul>
               </div>
-
-              <a href="/portfolio/tripsomnia/" class="project-readmore button button-red">
-                More details
+              <a href="https://github.com/hy3d-smart-distribution/api-server" class="project-readmore button button-red">
+                View on Github
               </a>
 
               <div class="project-technologies">
                 <div class="technologies-title">Technologies</div>
                 <ul class="tech-tags">
-
-                  <li><a href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby on Rails</a></li>
-
-                  <li><a href="https://reactjs.org/" rel="nofollow" target="_blank">React</a></li>
-
-                  <li><a href="https://redux.js.org/" rel="nofollow" target="_blank">Redux</a></li>
-
-                  <li><a href="http://elasticsearch.org/" rel="nofollow" target="_blank">ElasticSearch</a></li>
-
-                  <li><a href="http://redis.io/" rel="nofollow" target="_blank">Redis</a></li>
-
-                  <li><a href="https://www.ansible.com/" rel="nofollow" target="_blank">Ansible</a></li>
-
+                  <li><a href="https://expressjs.com/" rel="nofollow" target="_blank">Express-js</a></li>
+                  <li><a href="https://nodejs.org" rel="nofollow" target="_blank">Node.js</a></li>
                 </ul>
               </div>
             </div>
             <div class="project-image">
-              <a href="/portfolio/tripsomnia/">
                 <img src="/generated/images/portfolio/tripsomnia/marketplace1-800x568-df1d4f.2a3a0a68.png"
-                     alt="Tripsomnia">
-              </a>
+                     alt="Hy3d">
             </div>
-
           </div>
         </li>
-
         <li class="timeline_element project">
           <div class="timeline_element-date">
-            <time class="timeline_element-date-text">2014 - 2016</time>
+            <time class="timeline_element-date-text">2018 Jul</time>
           </div>
-
           <div class="timeline_element-contents">
             <div class="project-text">
               <a href="/portfolio/festblast/" class="project-link">
-                <div class="project-title">FestBlast</div>
-                <div class="project-subtitle">The best way to enjoy fests</div>
+                <div class="project-title">NamYang-MinusZ</div>
+                <div class="project-subtitle">Smart smoke detector</div>
               </a>
-              <div class="project-description"><p><strong>FestBlast is an all-in-one platform that lets you easily find
-                the best music fests, organize your trip and personalize your festival experience.</strong></p>
-
-                <p>This free web and mobile solution helps you stay connected with your friends &amp; share your epic
-                  festival moments.</p>
-
+              <div class="project-description"><p><strong>NamYang-MinusZ is an organized team in Namyang-ju city hackathon 2018</strong></p>
+                <p>In this competetion, our team's goal was to make bus monitoring system that prevents smokers on the bus stop.
+                  Knowing that cigarettes producing carbon monoxide(CO), I took a client-side and implemented program that detects CO and sent data to server.
+                </p>
                 <ol>
-                  <li>Responsive web application (Ruby on Rails, Angular)</li>
-                  <li>Mobile application for Android &amp; iOS (Angular, Ionic, Cordova)</li>
+                  <li>measure CO concentration from MQ-7 module</li>
+                  <li>wraps data with json then send it to api-server by making httprequest using wifiClient library</li>
                 </ol>
               </div>
-
-              <a href="/portfolio/festblast/" class="project-readmore button button-red">
-                More details
+              <a href="https://github.com/NamYang-MinusZ" class="project-readmore button button-red">
+                View on Github
               </a>
-
               <div class="project-technologies">
                 <div class="technologies-title">Technologies</div>
                 <ul class="tech-tags">
-
-                  <li><a href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby on Rails</a></li>
-
-                  <li><a href="https://angular.io/" rel="nofollow" target="_blank">Angular</a></li>
-
-                  <li><a href="http://ionicframework.com/" rel="nofollow" target="_blank">Ionic Framework</a></li>
-
-                  <li><a href="http://cordova.apache.org/" rel="nofollow" target="_blank">Apache Cordova</a></li>
-
-                  <li><a href="http://redis.io/" rel="nofollow" target="_blank">Redis</a></li>
-
-                  <li><a href="http://elasticsearch.org/" rel="nofollow" target="_blank">ElasticSearch</a></li>
-
-                  <li><a href="http://www.getchef.com" rel="nofollow" target="_blank">Chef</a></li>
-
+                  <li><a href="https://www.arduino.cc/" rel="nofollow" target="_blank">Arduino</a></li>
                 </ul>
               </div>
             </div>
-
             <div class="project-image">
               <a href="/portfolio/festblast/">
-                <img src="/generated/images/portfolio/festblast/1-800x568-374382.75499451.png" alt="FestBlast">
+                <img src="../static/images/namyang_1.jpg" alt="Namyang">
+              </a>
+            </div>
+            <div class="project-image">
+              <a href="/portfolio/festblast/">
+                <img src="../static/images/namyang_2.jpg" alt="Namyang">
               </a>
             </div>
 
           </div>
         </li>
-
         <li class="timeline_element project">
           <div class="timeline_element-date">
-            <time class="timeline_element-date-text">2014</time>
+            <time class="timeline_element-date-text">2018 Jun</time>
           </div>
+          <div class="timeline_element-contents">
+            <div class="project-text">
+              <a href="/portfolio/festblast/" class="project-link">
+                <div class="project-title">BeatlesCode</div>
+                <div class="project-subtitle">Play with auto-generated music-chord you wished</div>
+              </a>
+              <div class="project-description"><p><strong>BeatlesCode is an organized team in Openhack 2018</strong></p>
+                <p>This open-source web platform provides audio chord extraction from backend and playing with extacted notes
+                  <strong>It supports: </strong></p>
+                <ol>
+                  <li>Audio upload and BPM(Beat Per Minite) detection</li>
+                  <li>Coverts returned JSON chord file into list of notes</li>
+                </ol>
+              </div>
+              <a href="https://github.com/BeatlesCode" class="project-readmore button button-red">
+                View on Github
+              </a>
+              <div class="project-technologies">
+                <div class="technologies-title">Technologies</div>
+                <ul class="tech-tags">
+                  <li><a href="https://jquery.com/" rel="nofollow" target="_blank">JQuery</a></li>
+                  <li><a href="https://developer.mozilla.org/en/docs/Web/API/Web_Audio_API" rel="nofollow" target="_blank">Web Audio API</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="project-image">
+              <a href="/portfolio/festblast/">
+                <img src="../static/images/beatlescode.jpg" alt="BeatlesCode">
+              </a>
+            </div>
 
+          </div>
+        </li>
+        <li class="timeline_element project">
+          <div class="timeline_element-date">
+            <time class="timeline_element-date-text">2018 May - 2018 Sep</time>
+          </div>
           <div class="timeline_element-contents">
             <div class="project-text">
               <a href="/portfolio/recruitee/" class="project-link">
-                <div class="project-title">Recruitee</div>
-                <div class="project-subtitle">A beautiful online tool to help you find, screen and hire the best
-                  talent
+                <div class="project-title">Boostcourse ace 2th</div>
+                <div class="project-subtitle">
+                  web developer scholarship program from NAVER CONNECT foundation.
                 </div>
               </a>
-              <div class="project-description"><p>The mobile application for Android &amp; iOS includes almost all of
-                the Recruitee’s web panel functionalities, like: </p>
-
+              <div class="project-description"><p> This full-stack web developer course foucused on : </p>
                 <ul>
-                  <li>browsing and handling your job candidates;</li>
-                  <li>assigning notes, rating;</li>
-                  <li>moving candidate to another job stage;</li>
-                  <li>… and a lot more.</li>
-                </ul>
-
-                <p>Technical wrap-up:</p>
-
-                <ul>
-                  <li>A hybrid mobile application (for Android 4.0+ &amp; iOS 6+)</li>
-                  <li>done in AngularJS and Ionic Framework</li>
-                  <li>deployable to mobile stores as native app via Apache Cordova</li>
+                  <li>providing online lecture for learning html&css maven, servelet & jsp, spring framework, javascript and its libraries </li>
+                  <li>project assignment to be submitted and reviewed by professional web developers in work</li>
+                  <li>opening reviewers Q&A day where i got many technical tips from </li>
                 </ul>
               </div>
-
               <a href="/portfolio/recruitee/" class="project-readmore button button-red">
-                More details
+                Preparation
               </a>
-
               <div class="project-technologies">
                 <div class="technologies-title">Technologies</div>
                 <ul class="tech-tags">
-
-                  <li><a href="https://angular.io/" rel="nofollow" target="_blank">Angular</a></li>
-
-                  <li><a href="http://ionicframework.com/" rel="nofollow" target="_blank">Ionic Framework</a></li>
-
-                  <li><a href="http://cordova.apache.org/" rel="nofollow" target="_blank">Apache Cordova</a></li>
-
+                  <li><a href="https://spring.io" rel="nofollow" target="_blank">Spring Framework</a></li>
                 </ul>
               </div>
             </div>
-
             <div class="project-image">
-              <a href="/portfolio/recruitee/">
-                <img src="/generated/images/portfolio/recruitee/7-800x568-6a0192.ef251276.png" alt="Recruitee">
-              </a>
+              <img src="../static/images/boostcourse.png"
+                   alt="boostcourse">
             </div>
-
           </div>
         </li>
-
         <li class="timeline_element project">
           <div class="timeline_element-date">
-            <time class="timeline_element-date-text">2014 - 2015</time>
+            <time class="timeline_element-date-text">2017 Sep - 2017 Nov</time>
           </div>
-
-          <div class="timeline_element-contents">
-            <div class="project-text">
-              <a href="/portfolio/reservise/" class="project-link">
-                <div class="project-title">Reservise</div>
-                <div class="project-subtitle">Simple online reservations for sports facilities</div>
-              </a>
-              <div class="project-description"><p>The application allows for online reservation of courts and managing
-                your reservations.</p>
-
-                <ul>
-                  <li>a hybrid mobile application (for Android &amp; iOS)</li>
-                  <li>done in Angular + Ionic Framework</li>
-                  <li>deployable to mobile stores as native app via Apache Cordova</li>
-                </ul>
-              </div>
-
-              <a href="/portfolio/reservise/" class="project-readmore button button-red">
-                More details
-              </a>
-
-              <div class="project-technologies">
-                <div class="technologies-title">Technologies</div>
-                <ul class="tech-tags">
-
-                  <li><a href="https://angular.io/" rel="nofollow" target="_blank">Angular</a></li>
-
-                  <li><a href="http://ionicframework.com/" rel="nofollow" target="_blank">Ionic Framework</a></li>
-
-                  <li><a href="http://cordova.apache.org/" rel="nofollow" target="_blank">Apache Cordova</a></li>
-
-                </ul>
-              </div>
-            </div>
-
-            <div class="project-image">
-              <a href="/portfolio/reservise/">
-                <img src="/generated/images/portfolio/reservise/screen-800x568-bc2a25.27b568ea.png" alt="Reservise">
-              </a>
-            </div>
-
-          </div>
-        </li>
-
-        <li class="timeline_element project">
-          <div class="timeline_element-date">
-            <time class="timeline_element-date-text">2014</time>
-          </div>
-
           <div class="timeline_element-contents">
             <div class="project-text">
               <a href="/portfolio/gulliver/" class="project-link">
-                <div class="project-title">Gulliver</div>
-                <div class="project-subtitle">Spontaneously meet travellers and experience the city together</div>
+                <div class="project-title">ALPA-WEB</div>
+                <div class="project-subtitle"> students union & academic society website for college of computing in hanang university</div>
               </a>
-              <div class="project-description"><p>This mobile application allows you to:</p>
+              <div class="project-description"><p>This web service use nebular web template and has following features : </p>
 
                 <ul>
-                  <li>easily find activities for your nearest location,</li>
-                  <li>meet other travellers,</li>
-                  <li>set up a social meeting.</li>
+                  <li>communication with firebase to fetch data, which means no manual backend infrastructure</li>
+                  <li>budgets spending history</li>
+                  <li>members management service for student union and academic socities </li>
                 </ul>
-
-                <p>Technical wrap-up:</p>
-
-                <ol>
-                  <li>Responsive Web and native iOS &amp; Android application (which includes e.g. push
-                    notifications).
-                  </li>
-                  <li>Back-end server, written down in Ruby on Rails - which handles API requests and includes an admin
-                    panel.
-                  </li>
-                </ol>
-
               </div>
-
               <a href="/portfolio/gulliver/" class="project-readmore button button-red">
-                More details
+                View on Github
               </a>
 
               <div class="project-technologies">
                 <div class="technologies-title">Technologies</div>
                 <ul class="tech-tags">
-
-                  <li><a href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby on Rails</a></li>
-
+                  <li><a href="https://firebase.google.com/" rel="nofollow" target="_blank">Firebase</a></li>
                   <li><a href="https://angular.io/" rel="nofollow" target="_blank">Angular</a></li>
-
-                  <li><a href="http://ionicframework.com/" rel="nofollow" target="_blank">Ionic Framework</a></li>
-
-                  <li><a href="http://cordova.apache.org/" rel="nofollow" target="_blank">Apache Cordova</a></li>
-
+                  <li><a href="https://getbootstrap.com/" rel="nofollow" target="_blank">Bootstrap</a></li>
+                  <li><a href="https://github.com/akveo/nebular" rel="nofollow" target="_blank">Nebular</a></li>
                 </ul>
               </div>
             </div>
 
             <div class="project-image">
               <a href="/portfolio/gulliver/">
-                <img src="/generated/images/portfolio/gulliver/gulliver-800x568-591cb5.cac17535.png" alt="Gulliver">
+                <img src="/generated/images/portfolio/gulliver/gulliver-800x568-591cb5.cac17535.png" alt="AlPA-WEB">
+              </a>
+            </div>
+
+          </div>
+        </li>
+        <li class="timeline_element project">
+          <div class="timeline_element-date">
+            <time class="timeline_element-date-text">2017 Jun - 2017 July</time>
+          </div>
+
+          <div class="timeline_element-contents">
+            <div class="project-text">
+              <a href="/portfolio/reservise/" class="project-link">
+                <div class="project-title">CodeIgniter web server</div>
+                <div class="project-subtitle">Simple web service using mvc architecture in php and vanilla javascript</div>
+              </a>
+              <div class="project-description"><p>It provides :</p>
+                <ul>
+                  <li>WYSIWYG editor</li>
+                  <li>Email authentication service</li>
+                </ul>
+              </div>
+
+              <a href="https://github.com/Loyalchoi610/codeigniter-web-service" class="project-readmore button button-red">
+                View on Github
+              </a>
+              <div class="project-technologies">
+                <div class="technologies-title">Technologies</div>
+                <ul class="tech-tags">
+                  <li><a href="https://codeigniter.com/" rel="nofollow" target="_blank">Codeigniter</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-image">
+              <a href="/portfolio/reservise/">
+                <img src="/generated/images/portfolio/reservise/screen-800x568-bc2a25.27b568ea.png" alt="Codeigniter web servuce">
               </a>
             </div>
 
@@ -324,55 +287,30 @@
 
         <li class="timeline_element project">
           <div class="timeline_element-date">
-            <time class="timeline_element-date-text">2013 - 2014</time>
+            <time class="timeline_element-date-text">2016 dec - 2017 Feb</time>
           </div>
-
           <div class="timeline_element-contents">
             <div class="project-text">
               <a href="/portfolio/gorillafm/" class="project-link">
-                <div class="project-title">GorillaFM</div>
-                <div class="project-subtitle">An interactive online radio station</div>
+                <div class="project-title">hycube-web-service</div>
+                <div class="project-subtitle">community web service for information security institute of hanyang university</div>
               </a>
-              <div class="project-description"><p>Super interactive, one-page website for an online radio station.
-                Besides listening to the music, you can:</p>
+              <div class="project-description"><p>This basic community website use gentella allows you to :</p>
 
                 <ul>
-                  <li>browse radio’s tracks database; and request songs online;</li>
-                  <li>have a chat with other listeners;</li>
-                  <li>browse yours and your friends profiles, their favourite tracks and their activities;</li>
-                  <li>gain experience as a listener and advance in your Gorilla’s rank,</li>
-                  <li>scrobble your listened songs to LastFM and Facebook.</li>
+                  <li>write in forum section and discuss with collegues</li>
+                  <li>member read/write privilege management</li>
                 </ul>
-
-                <p>Technical wrap-up:</p>
-
-                <ol>
-                  <li>Stand-alone Frontend Angular app, which connects to the API server via HTTP &amp; WebSockets.</li>
-                  <li>Back-end Ruby on Rails server, with HTTP &amp; WebSockets endpoints, and PostgreSQL, Redis &amp;
-                    ElasticSearch databases.
-                  </li>
-                </ol>
               </div>
-
-              <a href="/portfolio/gorillafm/" class="project-readmore button button-red">
-                More details
+              <a href="https://github.com/ColorlibHQ/gentelella" class="project-readmore button button-red">
               </a>
 
               <div class="project-technologies">
                 <div class="technologies-title">Technologies</div>
                 <ul class="tech-tags">
-
-                  <li><a href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby on Rails</a></li>
-
-                  <li><a href="https://angular.io/" rel="nofollow" target="_blank">Angular</a></li>
-
-                  <li><a href="http://elasticsearch.org/" rel="nofollow" target="_blank">ElasticSearch</a></li>
-
-                  <li><a href="http://developer.mozilla.org/en/docs/WebSockets" rel="nofollow" target="_blank">Websockets</a>
-                  </li>
-
-                  <li><a href="http://redis.io/" rel="nofollow" target="_blank">Redis</a></li>
-
+                  <li><a href="https://www.php.net/" rel="nofollow" target="_blank">Php</a></li>
+                  <li><a href="https://getbootstrap.com/" rel="nofollow" target="_blank">Bootstrap</a></li>
+                  <li><a href="https://jquery.com/" rel="nofollow" target="_blank">JQuery</a></li>
                 </ul>
               </div>
             </div>

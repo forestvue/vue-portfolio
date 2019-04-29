@@ -378,12 +378,12 @@ body {
 
 ::-moz-selection {
   color: #fff;
-  background: #a51a1a
+  background: #5768a5
 }
 
 ::selection {
   color: #fff;
-  background: #a51a1a
+  background: #5768a5
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1365,6 +1365,8 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 
 .portfolio-timeline .project-image {
   width: 50%;
+  overflow: hidden;
+  max-height: 400px;
   padding-left: 30px;
   text-align: center;
   float: left

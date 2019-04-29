@@ -6,7 +6,7 @@
           <img src="https://avatars1.githubusercontent.com/u/18233236?s=460&amp;v=4" alt="" class="avatar">
         </div>
         <div class="person-content">
-          <h1 class="person-title">Choi Seungeon</h1>
+          <h1 class="person-title">Seungeon Choi</h1>
           <h2 class="person-subtitle">Full-stack Web developer</h2>
         </div>
       </a>
