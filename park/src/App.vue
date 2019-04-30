@@ -1,23 +1,25 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <side-nav />
     <router-view/>
   </div>
 </template>
 
 <script>
+import SideNav from '@/components/SideNav.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    'side-nav': SideNav
+  }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background-color: antiquewhite;
 }
 </style>
