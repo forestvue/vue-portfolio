@@ -30,10 +30,10 @@
               <div class="project-description">
                 During this time I took a break from university and instead decided to join algorithm and interview-related study.
                 in order to imporve my programming skills, joined group study in Gangnam, presenting to others what i solved problem that was given last week.
-                The study is taken two days a week and <strong>eventually passed samsung electronics s/w certificate test degree A+</strong>> in April.
+                The study is taken two days a week and <strong>eventually passed samsung electronics s/w certificate test degree A+</strong> in April.
               </div>
             </div>
-            <div class="project-image">
+            <div class="project-image emp">
               <img src="../static/images/samsung-cert.png"
                    alt="Hy3d">
             </div>
@@ -47,8 +47,8 @@
           <div class="timeline_element-contents">
             <div class="project-text">
               <div class="project-description">
-                I took professional algorithm offline courses from samsung SDS. In this class, mainly focused on minimizing time complexity
-                for solving problems with insane technics such as two pointers, dynamic programming, floyd-warshall, dijikstra, segment tree.
+                I took <strong>professional algorithm offline courses from samsung SDS.</strong> In this class, I focused on <strong>minimizing time complexity
+                for solving problems with insane technics such as two pointers, dynamic programming, floyd-warshall, dijikstra, segment tree</strong>.
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@
                 </ul>
               </div>
               <a href="https://github.com/hy3d-smart-distribution/api-server" class="project-readmore button button-red">
-                View on Github
+                <i class="fa fa-github fa-2x " aria-hidden="true"></i>View on Github
               </a>
 
               <div class="project-technologies">
@@ -104,15 +104,15 @@
               </a>
               <div class="project-description"><p><strong>NamYang-MinusZ is an organized team in Namyang-ju city hackathon 2018</strong></p>
                 <p>In this competetion, our team's goal was to make bus monitoring system that prevents smokers on the bus stop.
-                  Knowing that cigarettes producing carbon monoxide(CO), I took a client-side and implemented program that detects CO and sent data to server.
-                </p>
+                  Knowing that cigarettes producing carbon monoxide(CO), <strong>I took a client-side and implemented program that detects CO and sent data to server.
+                  </strong></p>
                 <ol>
                   <li>measure CO concentration from MQ-7 module</li>
                   <li>wraps data with json then send it to api-server by making httprequest using wifiClient library</li>
                 </ol>
               </div>
               <a href="https://github.com/NamYang-MinusZ" class="project-readmore button button-red">
-                View on Github
+                <i class="fa fa-github fa-2x " aria-hidden="true"></i>View on Github
               </a>
               <div class="project-technologies">
                 <div class="technologies-title">Technologies</div>
@@ -145,15 +145,15 @@
                 <div class="project-subtitle">Play with auto-generated music-chord you wished</div>
               </a>
               <div class="project-description"><p><strong>BeatlesCode is an organized team in Openhack 2018</strong></p>
-                <p>This open-source web platform provides audio chord extraction from backend and playing with extacted notes
-                  <strong>It supports: </strong></p>
+                <p>This open-source web platform provides audio chord extraction from backend through chord-recognition-AI and playing with extacted notes
+                  <strong>In this project i implemented front-end pages that supports: </strong></p>
                 <ol>
                   <li>Audio upload and BPM(Beat Per Minite) detection</li>
                   <li>Coverts returned JSON chord file into list of notes</li>
                 </ol>
               </div>
               <a href="https://github.com/BeatlesCode" class="project-readmore button button-red">
-                View on Github
+                <i class="fa fa-github fa-2x " aria-hidden="true"></i>View on Github
               </a>
               <div class="project-technologies">
                 <div class="technologies-title">Technologies</div>
@@ -187,12 +187,9 @@
                 <ul>
                   <li>providing online lecture for learning html&css maven, servelet & jsp, spring framework, javascript and its libraries </li>
                   <li>project assignment to be submitted and reviewed by professional web developers in work</li>
-                  <li>opening reviewers Q&A day where i got many technical tips from </li>
+                  <li>opening reviewers Q&A day <strong>where i learned hashmap approaches retrieving data from two tables that was on M:N relationship</strong>></li>
                 </ul>
               </div>
-              <a href="/portfolio/recruitee/" class="project-readmore button button-red">
-                Preparation
-              </a>
               <div class="project-technologies">
                 <div class="technologies-title">Technologies</div>
                 <ul class="tech-tags">
@@ -223,9 +220,11 @@
                   <li>budgets spending history</li>
                   <li>members management service for student union and academic socities </li>
                 </ul>
-              </div>
+                <Strong>As leading developer, I analyzed Nebular web template while going through Angular documentation then helped
+                  my teammate understand and modify project structure.</Strong>
+            </div>
               <a href="/portfolio/gulliver/" class="project-readmore button button-red">
-                View on Github
+                <i class="fa fa-github fa-2x " aria-hidden="true"></i>View on Github
               </a>
 
               <div class="project-technologies">
@@ -255,18 +254,19 @@
           <div class="timeline_element-contents">
             <div class="project-text">
               <a href="/portfolio/reservise/" class="project-link">
-                <div class="project-title">CodeIgniter web server</div>
+                <div class="project-title">CodeIgniter-web-service</div>
                 <div class="project-subtitle">Simple web service using mvc architecture in php and vanilla javascript</div>
               </a>
               <div class="project-description"><p>It provides :</p>
                 <ul>
+                  <li>custom image slider on home page</li>
                   <li>WYSIWYG editor</li>
                   <li>Email authentication service</li>
                 </ul>
               </div>
 
               <a href="https://github.com/Loyalchoi610/codeigniter-web-service" class="project-readmore button button-red">
-                View on Github
+                <i class="fa fa-github fa-2x " aria-hidden="true"></i>View on Github
               </a>
               <div class="project-technologies">
                 <div class="technologies-title">Technologies</div>
@@ -303,14 +303,15 @@
                 </ul>
               </div>
               <a href="https://github.com/ColorlibHQ/gentelella" class="project-readmore button button-red">
+                <i class="fa fa-github fa-2x " aria-hidden="true"></i>View on Github
               </a>
-
               <div class="project-technologies">
                 <div class="technologies-title">Technologies</div>
                 <ul class="tech-tags">
                   <li><a href="https://www.php.net/" rel="nofollow" target="_blank">Php</a></li>
                   <li><a href="https://getbootstrap.com/" rel="nofollow" target="_blank">Bootstrap</a></li>
                   <li><a href="https://jquery.com/" rel="nofollow" target="_blank">JQuery</a></li>
+                  <li><a href="https://github.com/ColorlibHQ/gentelella" rel="nofollow" target="_blank">Gentellela</a></li>
                 </ul>
               </div>
             </div>
@@ -318,147 +319,147 @@
             <div class="project-image">
               <a href="/portfolio/gorillafm/">
                 <img src="/generated/images/portfolio/gorillafm/gorillafm-new-800x568-3e9561.7f20cccf.png"
-                     alt="GorillaFM">
+                     alt="hycube-project">
               </a>
             </div>
 
           </div>
         </li>
 
-        <li class="timeline_element project">
-          <div class="timeline_element-date">
-            <time class="timeline_element-date-text">2013 - 2014</time>
-          </div>
+<!--        <li class="timeline_element project">-->
+<!--          <div class="timeline_element-date">-->
+<!--            <time class="timeline_element-date-text">2013 - 2014</time>-->
+<!--          </div>-->
 
-          <div class="timeline_element-contents">
-            <div class="project-text">
-              <a href="/portfolio/terazzaraz/" class="project-link">
-                <div class="project-title">TerazZaraz.pl</div>
-                <div class="project-subtitle">Job offers and your friends in just one place</div>
-              </a>
-              <div class="project-description"><p>A popular Polish job aggregator with many social features, like:</p>
+<!--          <div class="timeline_element-contents">-->
+<!--            <div class="project-text">-->
+<!--              <a href="/portfolio/terazzaraz/" class="project-link">-->
+<!--                <div class="project-title">TerazZaraz.pl</div>-->
+<!--                <div class="project-subtitle">Job offers and your friends in just one place</div>-->
+<!--              </a>-->
+<!--              <div class="project-description"><p>A popular Polish job aggregator with many social features, like:</p>-->
 
-                <ul>
-                  <li>invite friends;</li>
-                  <li>write private messages;</li>
-                  <li>recommend job offers;</li>
-                  <li>create your own job offers;</li>
-                  <li>find job offers located nearby, or created by someone from your friends’ network.</li>
-                </ul>
+<!--                <ul>-->
+<!--                  <li>invite friends;</li>-->
+<!--                  <li>write private messages;</li>-->
+<!--                  <li>recommend job offers;</li>-->
+<!--                  <li>create your own job offers;</li>-->
+<!--                  <li>find job offers located nearby, or created by someone from your friends’ network.</li>-->
+<!--                </ul>-->
 
-                <p>Built on top of Symfony Framework.</p>
-              </div>
+<!--                <p>Built on top of Symfony Framework.</p>-->
+<!--              </div>-->
 
-              <a href="/portfolio/terazzaraz/" class="project-readmore button button-red">
-                More details
-              </a>
-              <div class="project-technologies">
-                <div class="technologies-title">Technologies</div>
-                <ul class="tech-tags">
-                  <li><a href="http://php.net" rel="nofollow" target="_blank">PHP</a></li>
-                  <li><a href="http://symfony.com/" rel="nofollow" target="_blank">Symfony</a></li>
-                  <li><a href="http://redis.io/" rel="nofollow" target="_blank">Redis</a></li>
-                  <li><a href="http://elasticsearch.org/" rel="nofollow" target="_blank">ElasticSearch</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="project-image">
-              <a href="/portfolio/terazzaraz/">
-                <img src="/generated/images/portfolio/terazzaraz/terazzaraz-800x568-82caa1.6a1e4704.png"
-                     alt="TerazZaraz.pl">
-              </a>
-            </div>
+<!--              <a href="/portfolio/terazzaraz/" class="project-readmore button button-red">-->
+<!--                More details-->
+<!--              </a>-->
+<!--              <div class="project-technologies">-->
+<!--                <div class="technologies-title">Technologies</div>-->
+<!--                <ul class="tech-tags">-->
+<!--                  <li><a href="http://php.net" rel="nofollow" target="_blank">PHP</a></li>-->
+<!--                  <li><a href="http://symfony.com/" rel="nofollow" target="_blank">Symfony</a></li>-->
+<!--                  <li><a href="http://redis.io/" rel="nofollow" target="_blank">Redis</a></li>-->
+<!--                  <li><a href="http://elasticsearch.org/" rel="nofollow" target="_blank">ElasticSearch</a></li>-->
+<!--                </ul>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="project-image">-->
+<!--              <a href="/portfolio/terazzaraz/">-->
+<!--                <img src="/generated/images/portfolio/terazzaraz/terazzaraz-800x568-82caa1.6a1e4704.png"-->
+<!--                     alt="TerazZaraz.pl">-->
+<!--              </a>-->
+<!--            </div>-->
 
-          </div>
-        </li>
-        <li class="timeline_element project">
-          <div class="timeline_element-date">
-            <time class="timeline_element-date-text">2013</time>
-          </div>
-          <div class="timeline_element-contents">
-            <div class="project-text">
-              <a href="/portfolio/metal-zbiorniki/" class="project-link">
-                <div class="project-title">Metal-Zbiorniki</div>
-                <div class="project-subtitle"></div>
-              </a>
-              <div class="project-description"><p>A typical example of company website, featuring:</p>
-                <ul>
-                  <li>modern one-page, responsive web design;</li>
-                  <li>custom subpages, gallery, contact form;</li>
-                  <li>admin panel.</li>
-                </ul>
-              </div>
-              <a href="/portfolio/metal-zbiorniki/" class="project-readmore button button-red">
-                More details
-              </a>
-              <div class="project-technologies">
-                <div class="technologies-title">Technologies</div>
-                <ul class="tech-tags">
-                  <li><a href="http://php.net" rel="nofollow" target="_blank">PHP</a></li>
-                  <li><a href="http://wordpress.org/" rel="nofollow" target="_blank">Wordpress</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="project-image">
-              <a href="/portfolio/metal-zbiorniki/">
-                <img src="/generated/images/portfolio/metal-zbiorniki/1-800x568-e6d211.bcc9be7a.png"
-                     alt="Metal-Zbiorniki">
-              </a>
-            </div>
-          </div>
-        </li>
-        <li class="timeline_element project">
-          <div class="timeline_element-date">
-            <time class="timeline_element-date-text">2012 - 2014</time>
-          </div>
-          <div class="timeline_element-contents">
-            <div class="project-text">
-              <a href="/portfolio/slowniki-pro/" class="project-link">
-                <div class="project-title">Slowniki-Pro</div>
-                <div class="project-subtitle">Commercial dictionaries online</div>
-              </a>
-              <div class="project-description"><p><em>Slowniki-Pro is a lexicographical project allowing to accomodate
-                all the general and specialist dictionaries in just one, online place.</em></p>
-                <p>Whole project includes:</p>
-                <ul>
-                  <li>publicly accessable front-end portal with online dictionaries,</li>
-                  <li>a moderator and reseller panel, allowing to control the sales of the access to the paid
-                    dictionaries,
-                  </li>
-                  <li>dictionaries’ editor panel, that allows the Slowniki-Pro and other clients to:
-                    <ul>
-                      <li>create and manage dictionaries from the browser,</li>
-                      <li>manage dictionaries databases and editors’ user accounts,</li>
-                      <li>record audio pronunciation of headwords,</li>
-                      <li>create a printable version of dictionary,</li>
-                      <li>export the dictionary to native dictionary application (available on Windows, Mac and
-                        Linux),
-                      </li>
-                      <li>and finally, publish the dictionary onto the Slowniki-Pro platform.</li>
-                    </ul>
-                  </li>
-                </ul>
-                <p>Written down fully from scratch in custom MVC PHP framework.</p>
-              </div>
-              <a href="/portfolio/slowniki-pro/" class="project-readmore button button-red">
-                More details
-              </a>
-              <div class="project-technologies">
-                <div class="technologies-title">Technologies</div>
-                <ul class="tech-tags">
-                  <li><a href="http://php.net" rel="nofollow" target="_blank">PHP</a></li>
-                  <li><a href="http://www.doctrine-project.org/" rel="nofollow" target="_blank">Doctrine ORM</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="project-image">
-              <a href="/portfolio/slowniki-pro/">
-                <img src="/generated/images/portfolio/slownikipro/slownikipro-800x568-3d9b07.75bd3714.png"
-                     alt="Slowniki-Pro">
-              </a>
-            </div>
-          </div>
-        </li>
+<!--          </div>-->
+<!--        </li>-->
+<!--        <li class="timeline_element project">-->
+<!--          <div class="timeline_element-date">-->
+<!--            <time class="timeline_element-date-text">2013</time>-->
+<!--          </div>-->
+<!--          <div class="timeline_element-contents">-->
+<!--            <div class="project-text">-->
+<!--              <a href="/portfolio/metal-zbiorniki/" class="project-link">-->
+<!--                <div class="project-title">Metal-Zbiorniki</div>-->
+<!--                <div class="project-subtitle"></div>-->
+<!--              </a>-->
+<!--              <div class="project-description"><p>A typical example of company website, featuring:</p>-->
+<!--                <ul>-->
+<!--                  <li>modern one-page, responsive web design;</li>-->
+<!--                  <li>custom subpages, gallery, contact form;</li>-->
+<!--                  <li>admin panel.</li>-->
+<!--                </ul>-->
+<!--              </div>-->
+<!--              <a href="/portfolio/metal-zbiorniki/" class="project-readmore button button-red">-->
+<!--                More details-->
+<!--              </a>-->
+<!--              <div class="project-technologies">-->
+<!--                <div class="technologies-title">Technologies</div>-->
+<!--                <ul class="tech-tags">-->
+<!--                  <li><a href="http://php.net" rel="nofollow" target="_blank">PHP</a></li>-->
+<!--                  <li><a href="http://wordpress.org/" rel="nofollow" target="_blank">Wordpress</a></li>-->
+<!--                </ul>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="project-image">-->
+<!--              <a href="/portfolio/metal-zbiorniki/">-->
+<!--                <img src="/generated/images/portfolio/metal-zbiorniki/1-800x568-e6d211.bcc9be7a.png"-->
+<!--                     alt="Metal-Zbiorniki">-->
+<!--              </a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </li>-->
+<!--        <li class="timeline_element project">-->
+<!--          <div class="timeline_element-date">-->
+<!--            <time class="timeline_element-date-text">2012 - 2014</time>-->
+<!--          </div>-->
+<!--          <div class="timeline_element-contents">-->
+<!--            <div class="project-text">-->
+<!--              <a href="/portfolio/slowniki-pro/" class="project-link">-->
+<!--                <div class="project-title">Slowniki-Pro</div>-->
+<!--                <div class="project-subtitle">Commercial dictionaries online</div>-->
+<!--              </a>-->
+<!--              <div class="project-description"><p><em>Slowniki-Pro is a lexicographical project allowing to accomodate-->
+<!--                all the general and specialist dictionaries in just one, online place.</em></p>-->
+<!--                <p>Whole project includes:</p>-->
+<!--                <ul>-->
+<!--                  <li>publicly accessable front-end portal with online dictionaries,</li>-->
+<!--                  <li>a moderator and reseller panel, allowing to control the sales of the access to the paid-->
+<!--                    dictionaries,-->
+<!--                  </li>-->
+<!--                  <li>dictionaries’ editor panel, that allows the Slowniki-Pro and other clients to:-->
+<!--                    <ul>-->
+<!--                      <li>create and manage dictionaries from the browser,</li>-->
+<!--                      <li>manage dictionaries databases and editors’ user accounts,</li>-->
+<!--                      <li>record audio pronunciation of headwords,</li>-->
+<!--                      <li>create a printable version of dictionary,</li>-->
+<!--                      <li>export the dictionary to native dictionary application (available on Windows, Mac and-->
+<!--                        Linux),-->
+<!--                      </li>-->
+<!--                      <li>and finally, publish the dictionary onto the Slowniki-Pro platform.</li>-->
+<!--                    </ul>-->
+<!--                  </li>-->
+<!--                </ul>-->
+<!--                <p>Written down fully from scratch in custom MVC PHP framework.</p>-->
+<!--              </div>-->
+<!--              <a href="/portfolio/slowniki-pro/" class="project-readmore button button-red">-->
+<!--                More details-->
+<!--              </a>-->
+<!--              <div class="project-technologies">-->
+<!--                <div class="technologies-title">Technologies</div>-->
+<!--                <ul class="tech-tags">-->
+<!--                  <li><a href="http://php.net" rel="nofollow" target="_blank">PHP</a></li>-->
+<!--                  <li><a href="http://www.doctrine-project.org/" rel="nofollow" target="_blank">Doctrine ORM</a></li>-->
+<!--                </ul>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="project-image">-->
+<!--              <a href="/portfolio/slowniki-pro/">-->
+<!--                <img src="/generated/images/portfolio/slownikipro/slownikipro-800x568-3d9b07.75bd3714.png"-->
+<!--                     alt="Slowniki-Pro">-->
+<!--              </a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </li>-->
       </ul>
     </div>
   </div>

@@ -4,7 +4,7 @@ import Router from 'vue-router'
 import Portfolio from '../views/Portfolio'
 import Skills from '../views/Skills'
 import MainComponent from '../components/Main'
-import About from '../views/About'
+import About from '../views/Contact'
 
 Vue.use(Router)
 
