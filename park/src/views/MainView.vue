@@ -43,6 +43,7 @@ export default {};
   flex-direction: column;
   align-items: flex-start;
   font-size: 2em;
+      margin-top: 6.25em;
 }
 
 .main-buttons a {
