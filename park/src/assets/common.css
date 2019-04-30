@@ -1,24 +1,32 @@
-html, body {
-    margin: 0%;
-    height: 100%;
-    overflow: hidden;
-    font: 16px/1.6 Roboto,Helvetica,sans-serif;
-    font-weight: 300;
+html,
+body {
+  margin: 0%;
+  height: 100%;
+  overflow: hidden;
+  font: 16px/1.6 Roboto, Helvetica, sans-serif;
+  font-weight: 300;
 }
 
-h1, h2 {
-    margin: 0;
-    padding: 0;
-    color: white;
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 ul {
-    list-style: none;
-    margin: 0%;
-    padding: 0%;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: #BB1E1E;
 }
