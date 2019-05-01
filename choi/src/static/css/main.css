@@ -3,7 +3,8 @@
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%;
+
 }
 
 body {
@@ -378,12 +379,12 @@ body {
 
 ::-moz-selection {
   color: #fff;
-  background: #a51a1a
+  background: #5768a5
 }
 
 ::selection {
   color: #fff;
-  background: #a51a1a
+  background: #5768a5
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -571,7 +572,10 @@ blockquote {
   line-height: 1;
   margin-right: 1em
 }
-
+.button i,.button span {
+  display: inline-block;
+  vertical-align: middle;
+}
 .button.button-outline {
   border-width: 1px;
   border-style: solid
@@ -590,7 +594,14 @@ blockquote {
   padding: 0;
   margin-right: .2em
 }
-
+.button.button-sky{
+  background-color: #25c4c8;
+  border: 1px solid #2cb3c8;
+  color: #fff;
+  padding: .7em 1.2em;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased
+}
 .button.button-red {
   background-color: #AF2222;
   border: 1px solid #9a1e1e;
@@ -966,6 +977,8 @@ html:not(.platform-mac) .site-sidebar .block-blog {
     right: 0;
     display: block;
     width: auto;
+    background: url(../images/foresthouse.jpg) top center no-repeat #bababa;
+    background-size: cover;
     background-position: right top
   }
 }
@@ -1209,9 +1222,10 @@ html:not(.platform-mac) .site-sidebar .block-blog {
   left: 0;
   right: 0;
   z-index: 1;
-  background: url(../images/foresthouse.jpg) top center no-repeat #bababa;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
+  background: url(../images/foresthouse.jpg) top center no-repeat #bababa;
+  background-size: cover;
   color: #fff;
   padding-left: 110px;
   padding-top: 130px;
@@ -1365,11 +1379,15 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 
 .portfolio-timeline .project-image {
   width: 50%;
+  overflow: hidden;
+  max-height: 350px;
   padding-left: 30px;
   text-align: center;
   float: left
 }
-
+.portfolio-timeline .project-image.emp {
+  width: 70%;
+}
 @media screen and (max-width: 1023px) {
   .portfolio-timeline .project-image {
     width: auto;
@@ -1540,7 +1558,9 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 .col-4 {
   width: 33.33333%
 }
-
+.col-6 {
+  width: 50%
+}
 @media screen and (max-width: 450px) {
   .col-4 {
     width: auto;

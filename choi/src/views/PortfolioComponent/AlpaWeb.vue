@@ -1,10 +1,10 @@
 <template>
-  <router-view></router-view>
+  <div>ALPA</div>
 </template>
 
 <script>
 export default {
-  name: 'Portfolio'
+  name: 'AlpaWeb'
 }
 </script>
 

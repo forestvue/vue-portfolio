@@ -2,14 +2,19 @@
   <div>
     <Side/>
     <Menu/>
-    <router-view/>
+    <div class="site-main">
+      <div class="site-main-inner">
+        <router-view/>
+      </div>
+    </div>
+
   </div>
 </template>
 
 <script>
-import Main from './components/Main.vue'
-import Side from './components/Side.vue'
-import Menu from './components/Menu.vue'
+import Main from './common/Main.vue'
+import Side from './common/Side.vue'
+import Menu from './common/Menu.vue'
 export default {
   name: 'App',
   components: {
@@ -20,13 +25,5 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style src="./static/css/fontconfig.css"></style>
+<style src="./static/css/main.css"></style>

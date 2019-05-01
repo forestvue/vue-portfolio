@@ -1,10 +1,10 @@
 <template>
-  <router-view></router-view>
+  <div></div>
 </template>
 
 <script>
 export default {
-  name: 'Portfolio'
+  name: 'namyang-minus-z'
 }
 </script>
 
