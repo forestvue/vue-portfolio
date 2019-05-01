@@ -3,7 +3,8 @@
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%;
+
 }
 
 body {
@@ -976,6 +977,8 @@ html:not(.platform-mac) .site-sidebar .block-blog {
     right: 0;
     display: block;
     width: auto;
+    background: url(../images/foresthouse.jpg) top center no-repeat #bababa;
+    background-size: cover;
     background-position: right top
   }
 }
@@ -1219,9 +1222,10 @@ html:not(.platform-mac) .site-sidebar .block-blog {
   left: 0;
   right: 0;
   z-index: 1;
-  background: url(../images/foresthouse.jpg) top center no-repeat #bababa;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
+  background: url(../images/foresthouse.jpg) top center no-repeat #bababa;
+  background-size: cover;
   color: #fff;
   padding-left: 110px;
   padding-top: 130px;

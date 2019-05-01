@@ -11,9 +11,9 @@
       </h2>
 
       <div class="home-buttons">
-        <a href="/portfolio" class="button button-outline button-white">Portfolio</a>
+        <router-link to="/portfolio"  class="button button-outline button-white">Portfolio</router-link>
         <br>
-        <a href="/skills-and-offer" class="button button-outline button-white">Skills &amp; offer</a>
+        <router-link to="/skills" class="button button-outline button-white">Skills &amp; offer</router-link>
       </div>
     </div>
   </div>
@@ -26,6 +26,12 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  beforeCreate () {
+    document.body.className = 'parent-home'
+  },
+  destroyed () {
+    document.body.className = ''
   }
 }
 </script>

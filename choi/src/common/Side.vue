@@ -10,7 +10,21 @@
           <h2 class="person-subtitle">Full-stack Web developer</h2>
         </div>
       </a>
-      <nav class="block main-navigation">
+      <nav class="block main-navigation" v-bind:class="{extended: expanded}">
+        <div class="navigation-extend-bar">
+          <div class="social-icons">
+            <a href="mailto:chou610@gmail.com" class="button button-icon" title="mail: chou610@gmail.com">
+              <i class="fa fa-envelope"></i>
+            </a>
+            <a href="https://github.com/loyalchoi610" class="button button-icon" title="github: loyalchoi610">
+              <i class="fa fa-github-square"></i>
+            </a>
+          </div>
+
+          <a href="#" v-on:click="dropdown($event)" class="navigation-extend-button js-extend-main-navigation">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
         <div class="navigation-extendable">
           <ul>
             <li v-on:click="point(0)" :class="active[0] ? 'current': ''"><router-link to="/portfolio">Portfolio</router-link></li>
@@ -45,13 +59,19 @@ export default {
   data: function () {
     return {
       active: [false, false, false, false],
-      counter: 0
+      counter: 0,
+      expanded: false
     }
   },
   methods: {
     point: function (loc) {
       for (let i = 0; i < 4; i++) this.$set(this.active, i, false)
       this.$set(this.active, loc, !this.active[loc])
+      this.expanded = !this.expanded
+    },
+    dropdown: function (event) {
+      event.preventDefault()
+      this.expanded = !this.expanded
     }
   }
 }

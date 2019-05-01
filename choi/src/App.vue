@@ -12,9 +12,9 @@
 </template>
 
 <script>
-import Main from './components/Main.vue'
-import Side from './components/Side.vue'
-import Menu from './components/Menu.vue'
+import Main from './common/Main.vue'
+import Side from './common/Side.vue'
+import Menu from './common/Menu.vue'
 export default {
   name: 'App',
   components: {

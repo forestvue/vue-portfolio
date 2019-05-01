@@ -1,13 +1,12 @@
 <template>
-  <router-view></router-view>
+  <div></div>
 </template>
 
 <script>
 export default {
-  name: 'Portfolio'
+  name: 'hycube-web-service'
 }
 </script>
 
 <style scoped>
-
 </style>
