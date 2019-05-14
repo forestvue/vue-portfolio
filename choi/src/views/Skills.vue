@@ -1,6 +1,6 @@
 <template>
   <div class="main-section offer-section">
-    <h1 class="main-title">Skills &amp; offer</h1>
+    <h1 class="main-title">Skills</h1>
 
     <p>I am looking for <strong>junior full-stack web developer position</strong>.</p>
 
@@ -115,12 +115,6 @@
       </li>
     </ul>
     <hr>
-    <p>
-      If your initial thought is that I just can’t be the best one in everything, it's okay. Just send the UI &amp; design job to someone else, and I can take care of all the code development.
-    </p>
-    <p>
-      <strong>Of course I do not always work alone.</strong> If you already have an existing team for your project, but still need someone to help it, contact me. I’ll fit into your needs.
-    </p>
   </div>
 </template>
 
