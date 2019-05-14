@@ -13,6 +13,7 @@ import Hy3dSmartDistribution from '../views/PortfolioComponent/Hy3dSmartDistribu
 import HycubeWebSerivce from '../views/PortfolioComponent/HycubeWebSerivce'
 import NamYangMinusZ from '../views/PortfolioComponent/NamYangMinusZ'
 import Basic from '../views/PortfolioComponent/Basic'
+import Cv from '../views/Cv'
 
 Vue.use(Router)
 
@@ -78,6 +79,11 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact
+    },
+    {
+      path: '/cv',
+      name: 'Cv',
+      component: Cv
     }
   ]
 })
