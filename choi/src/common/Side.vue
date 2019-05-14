@@ -1,15 +1,15 @@
 <template>
   <aside class="site-sidebar">
     <div class="site-sidebar-inner">
-      <a href="/" class="person">
+      <router-link to="/" class="person">
         <div class="person-avatar">
-          <img src="https://avatars1.githubusercontent.com/u/18233236?s=460&amp;v=4" alt="" class="avatar">
+          <img src="../static/images/my_pic.jpg" alt="" class="avatar">
         </div>
         <div class="person-content">
           <h1 class="person-title">Seungeon Choi</h1>
           <h2 class="person-subtitle">Full-stack Web developer</h2>
         </div>
-      </a>
+      </router-link>
       <nav class="block main-navigation" v-bind:class="{extended: expanded}">
         <div class="navigation-extend-bar">
           <div class="social-icons">
@@ -69,7 +69,9 @@ export default {
   methods: {
     point: function (loc) {
       for (let i = 0; i < 4; i++) this.$set(this.active, i, false)
-      this.$set(this.active, loc, !this.active[loc])
+      if (loc !== 'undefined') {
+        this.$set(this.active, loc, !this.active[loc])
+      }
       this.expanded = !this.expanded
     },
     dropdown: function (event) {
