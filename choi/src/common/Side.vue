@@ -1,15 +1,15 @@
 <template>
   <aside class="site-sidebar">
     <div class="site-sidebar-inner">
-      <a href="/" class="person">
+      <router-link to="/" class="person">
         <div class="person-avatar">
-          <img src="https://avatars1.githubusercontent.com/u/18233236?s=460&amp;v=4" alt="" class="avatar">
+          <img src="../static/images/my_pic.jpg" alt="" class="avatar">
         </div>
         <div class="person-content">
           <h1 class="person-title">Seungeon Choi</h1>
           <h2 class="person-subtitle">Full-stack Web developer</h2>
         </div>
-      </a>
+      </router-link>
       <nav class="block main-navigation" v-bind:class="{extended: expanded}">
         <div class="navigation-extend-bar">
           <div class="social-icons">
@@ -27,12 +27,12 @@
         </div>
         <div class="navigation-extendable">
           <ul>
-            <li v-on:click="point(0)" :class="active[0] ? 'current': ''"><router-link to="/portfolio">Portfolio</router-link></li>
-           <li v-on:click="point(1)" :class="active[1] ? 'current': ''"><router-link to="/skills">Skills &amp; offer</router-link></li>
-          <li v-on:click="point(2)" :class="active[2] ? 'current': ''"><router-link to="/contact">Contact me</router-link></li>
+            <li  :class="active[0] ? 'current': ''"><router-link to="/portfolio">Portfolio</router-link></li>
+           <li  :class="active[1] ? 'current': ''"><router-link to="/skills">Skills</router-link></li>
+          <li  :class="active[2] ? 'current': ''"><router-link to="/contact">Contact me</router-link></li>
           </ul>
           <ul>
-            <li v-on:click="point(3)" :class="active[3] ? 'current': ''"><router-link to="/cv">My CV</router-link></li>
+            <li  :class="active[3] ? 'current': ''"><router-link to="/cv">My CV</router-link></li>
           </ul>
         </div>
       </nav>
@@ -56,6 +56,9 @@
 <script>
 export default {
   name: 'SideComponent',
+  created: function () {
+    this.$eventHub.$on('navigate', this.point)
+  },
   data: function () {
     return {
       active: [false, false, false, false],
@@ -66,7 +69,9 @@ export default {
   methods: {
     point: function (loc) {
       for (let i = 0; i < 4; i++) this.$set(this.active, i, false)
-      this.$set(this.active, loc, !this.active[loc])
+      if (loc !== 'undefined') {
+        this.$set(this.active, loc, !this.active[loc])
+      }
       this.expanded = !this.expanded
     },
     dropdown: function (event) {

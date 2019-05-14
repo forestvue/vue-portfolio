@@ -22,6 +22,9 @@
 <script>
 export default {
   name: 'HelloWorld',
+  created: function () {
+    this.$eventHub.$emit('navigate')
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'

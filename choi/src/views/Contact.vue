@@ -24,7 +24,10 @@
 </template>
 
 <script>export default {
-  name: 'Contact'
+  name: 'Contact',
+  created: function () {
+    this.$eventHub.$emit('navigate', 2)
+  }
 }
 </script>
 

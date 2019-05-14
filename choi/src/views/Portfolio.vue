@@ -4,7 +4,10 @@
 
 <script>
 export default {
-  name: 'Portfolio'
+  name: 'Portfolio',
+  created: function () {
+    this.$eventHub.$emit('navigate', 0)
+  }
 }
 </script>
 
