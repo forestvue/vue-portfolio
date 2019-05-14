@@ -27,12 +27,12 @@
         </div>
         <div class="navigation-extendable">
           <ul>
-            <li v-on:click="point(0)" :class="active[0] ? 'current': ''"><router-link to="/portfolio">Portfolio</router-link></li>
-           <li v-on:click="point(1)" :class="active[1] ? 'current': ''"><router-link to="/skills">Skills &amp; offer</router-link></li>
-          <li v-on:click="point(2)" :class="active[2] ? 'current': ''"><router-link to="/contact">Contact me</router-link></li>
+            <li  :class="active[0] ? 'current': ''"><router-link to="/portfolio">Portfolio</router-link></li>
+           <li  :class="active[1] ? 'current': ''"><router-link to="/skills">Skills</router-link></li>
+          <li  :class="active[2] ? 'current': ''"><router-link to="/contact">Contact me</router-link></li>
           </ul>
           <ul>
-            <li v-on:click="point(3)" :class="active[3] ? 'current': ''"><router-link to="/cv">My CV</router-link></li>
+            <li  :class="active[3] ? 'current': ''"><router-link to="/cv">My CV</router-link></li>
           </ul>
         </div>
       </nav>
@@ -56,6 +56,9 @@
 <script>
 export default {
   name: 'SideComponent',
+  created: function () {
+    this.$eventHub.$on('navigate', this.point)
+  },
   data: function () {
     return {
       active: [false, false, false, false],

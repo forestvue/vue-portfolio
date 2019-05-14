@@ -120,7 +120,10 @@
 
 <script>
 export default {
-  name: 'SkillsComponent'
+  name: 'SkillsComponent',
+  created: function () {
+    this.$eventHub.$emit('navigate', 1)
+  }
 }
 </script>
 
