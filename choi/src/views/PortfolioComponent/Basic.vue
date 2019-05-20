@@ -226,7 +226,6 @@
               <router-link to="/CodeIgniter-web-service" class="project-readmore button button-red">
                 <i class="fa fa-github fa-2x " aria-hidden="true"></i>View on Github
               </router-link>
-
               <div class="project-technologies">
                 <div class="technologies-title">Technologies</div>
                 <ul class="tech-tags">
@@ -237,12 +236,11 @@
                 </ul>
               </div>
             </div>
-
-            <div class="project-image">
-              <router-link to="/Alpa-web">
-                <img src="/generated/images/portfolio/gulliver/gulliver-800x568-591cb5.cac17535.png" alt="AlPA-WEB">
-              </router-link>
-            </div>
+<!--            <div class="project-image">-->
+<!--              <router-link to="/Alpa-web">-->
+<!--                <img src="/generated/images/portfolio/gulliver/gulliver-800x568-591cb5.cac17535.png" alt="AlPA-WEB">-->
+<!--              </router-link>-->
+<!--            </div>-->
 
           </div>
         </li>
@@ -276,11 +274,11 @@
               </div>
             </div>
 
-            <div class="project-image">
-              <router-link to="/CodeIgniter-web-service">
-                <img src="/generated/images/portfolio/reservise/screen-800x568-bc2a25.27b568ea.png" alt="Codeigniter web servuce">
-              </router-link>
-            </div>
+<!--            <div class="project-image">-->
+<!--              <router-link to="/CodeIgniter-web-service">-->
+<!--                <img src="/generated/images/portfolio/reservise/screen-800x568-bc2a25.27b568ea.png" alt="Codeigniter web servuce">-->
+<!--              </router-link>-->
+<!--            </div>-->
 
           </div>
         </li>
@@ -315,12 +313,12 @@
               </div>
             </div>
 
-            <div class="project-image">
-              <router-link to="/hycube-web-service">
-                <img src="/generated/images/portfolio/gorillafm/gorillafm-new-800x568-3e9561.7f20cccf.png"
-                     alt="hycube-project">
-              </router-link>
-            </div>
+<!--            <div class="project-image">-->
+<!--              <router-link to="/hycube-web-service">-->
+<!--                <img src="/generated/images/portfolio/gorillafm/gorillafm-new-800x568-3e9561.7f20cccf.png"-->
+<!--                     alt="hycube-project">-->
+<!--              </router-link>-->
+<!--            </div>-->
 
           </div>
         </li>

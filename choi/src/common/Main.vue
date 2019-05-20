@@ -13,7 +13,7 @@
       <div class="home-buttons">
         <router-link to="/portfolio"  class="button button-outline button-white">Portfolio</router-link>
         <br>
-        <router-link to="/skills" class="button button-outline button-white">Skills &amp; offer</router-link>
+        <router-link to="/skills" class="button button-outline button-white">Skills</router-link>
       </div>
     </div>
   </div>
